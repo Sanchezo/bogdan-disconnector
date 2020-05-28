@@ -12,7 +12,7 @@ int _cdecl _tmain(
         MOD_ALT | MOD_NOREPEAT,
         0x42))  //0x42 is 'b'
     {
-        _tprintf(_T("Everything ready. Press alt+b to disconnetct your internet connection for 5 sec\n"));
+        _tprintf(_T("Everything ready. Press alt+b to disconnect your internet connection for 5 sec\n"));
     }
 
     MSG msg = { 0 };
